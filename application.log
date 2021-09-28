@@ -1,0 +1,12 @@
+2021-09-28 18:30:22,049  INFO [main] Base:42 - Trying to read browser name
+2021-09-28 18:30:22,051  INFO [main] Base:45 - Identified the browser as chrome
+2021-09-28 18:30:25,050  INFO [main] Base:57 - Trying to launch the application
+2021-09-28 18:30:29,255  INFO [main] Base:59 - Application launched successfully
+2021-09-28 18:30:29,276  INFO [main] Base:27 - Starting with validateTitleTest Testcase
+2021-09-28 18:30:29,283  INFO [main] Base:31 - Completed with validateTittleTest Testcase 
+2021-09-28 18:30:29,287  INFO [main] Base:42 - Trying to read browser name
+2021-09-28 18:30:29,287  INFO [main] Base:45 - Identified the browser as chrome
+2021-09-28 18:30:30,693  INFO [main] Base:57 - Trying to launch the application
+2021-09-28 18:30:34,559  INFO [main] Base:59 - Application launched successfully
+2021-09-28 18:30:34,561  INFO [main] Base:36 - Starting with validateLoginTest TestCase 
+2021-09-28 18:30:39,244  INFO [main] Base:41 - Completed with validateLoginTest Testcase 
