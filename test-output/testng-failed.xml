@@ -5,8 +5,10 @@
     <classes>
       <class name="CapgeminiSelenium.maintest.AppLoginPageTest">
         <methods>
-          <include name="validateLoginTest"/>
+          <include name="closeReportSetup"/>
           <include name="closeBrowserSetup"/>
+          <include name="validateMultipleLogin"/>
+          <include name="reportSetup"/>
           <include name="browserSetup"/>
         </methods>
       </class> <!-- CapgeminiSelenium.maintest.AppLoginPageTest -->

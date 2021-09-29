@@ -9,13 +9,19 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.safari.SafariDriver;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
-	
+	public static ExtentReports extent;
+	public static ExtentSparkReporter reporter;
+	public static String reportPath;
 	public static WebDriver driver;
 	public static Properties prop;
 	public static Logger logger;
@@ -63,5 +69,23 @@ public class Base {
 	public void tearDown() {
 		driver.quit();
 		logger.info("Closing the browser");
+	}
+	
+	public void extentReportSetup() {
+		reportPath = System.getProperty("user.dir") + "/ExtentReport/inder.html";
+		reporter = new ExtentSparkReporter(reportPath);
+		//extent spartk reported can be used for some configurations
+		reporter.config().setDocumentTitle("CGI web Automation Report");
+		reporter.config().setReportName("CGI Web Test Results");
+		extent = new ExtentReports();
+		extent.attachReporter(reporter);
+		//we can use extent also to define some configs
+		extent.setSystemInfo("Tester", "Nayan");
+		extent.setSystemInfo("Environment", "QA");
+		extent.setSystemInfo("Sprint", "CGI Sprint 2");
+	}
+	
+	public void closeExtentReportSetup() {
+		extent.flush();
 	}
 }

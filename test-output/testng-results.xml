@@ -1,36 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-28T18:30:21 IST" name="Default suite" finished-at="2021-09-28T18:30:39 IST" duration-ms="17290">
+  <suite started-at="2021-09-29T18:01:21 IST" name="Default suite" finished-at="2021-09-29T18:02:03 IST" duration-ms="42359">
     <groups>
     </groups>
-    <test started-at="2021-09-28T18:30:21 IST" name="Default test" finished-at="2021-09-28T18:30:39 IST" duration-ms="17290">
+    <test started-at="2021-09-29T18:01:21 IST" name="Default test" finished-at="2021-09-29T18:02:03 IST" duration-ms="42359">
       <class name="CapgeminiSelenium.maintest.AppLoginPageTest">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@57af006c]" started-at="2021-09-28T18:30:21 IST" name="browserSetup" finished-at="2021-09-28T18:30:29 IST" duration-ms="7289" status="PASS">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:21 IST" name="reportSetup" finished-at="2021-09-29T18:01:21 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:21 IST" name="browserSetup" finished-at="2021-09-29T18:01:29 IST" duration-ms="8066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="validateTitleTest()[pri:1, instance:CapgeminiSelenium.maintest.AppLoginPageTest@57af006c]" started-at="2021-09-28T18:30:29 IST" name="validateTitleTest" finished-at="2021-09-28T18:30:29 IST" duration-ms="10" status="PASS">
+        <test-method signature="validateMultipleLogin(java.lang.String,java.lang.String)[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:29 IST" name="validateMultipleLogin" data-provider="getData" finished-at="2021-09-29T18:01:34 IST" duration-ms="5173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleLogin -->
+        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:34 IST" name="closeBrowserSetup" finished-at="2021-09-29T18:01:35 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:35 IST" name="browserSetup" finished-at="2021-09-29T18:01:42 IST" duration-ms="7531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="validateMultipleLogin(java.lang.String,java.lang.String)[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:42 IST" name="validateMultipleLogin" data-provider="getData" finished-at="2021-09-29T18:01:43 IST" duration-ms="1229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleLogin -->
+        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:43 IST" name="closeBrowserSetup" finished-at="2021-09-29T18:01:43 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:43 IST" name="browserSetup" finished-at="2021-09-29T18:01:51 IST" duration-ms="7074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="validateTitleTest()[pri:1, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:51 IST" name="validateTitleTest" finished-at="2021-09-29T18:01:51 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitleTest -->
-        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@57af006c]" started-at="2021-09-28T18:30:29 IST" name="closeBrowserSetup" finished-at="2021-09-28T18:30:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:51 IST" name="closeBrowserSetup" finished-at="2021-09-29T18:01:51 IST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserSetup -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@57af006c]" started-at="2021-09-28T18:30:29 IST" name="browserSetup" finished-at="2021-09-28T18:30:34 IST" duration-ms="5273" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:51 IST" name="browserSetup" finished-at="2021-09-29T18:01:58 IST" duration-ms="7484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="validateLoginTest()[pri:2, instance:CapgeminiSelenium.maintest.AppLoginPageTest@57af006c]" started-at="2021-09-28T18:30:34 IST" name="validateLoginTest" finished-at="2021-09-28T18:30:39 IST" duration-ms="4685" status="PASS">
+        <test-method signature="validateLoginTest()[pri:2, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:01:58 IST" name="validateLoginTest" finished-at="2021-09-29T18:02:03 IST" duration-ms="4476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginTest -->
-        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@57af006c]" started-at="2021-09-28T18:30:39 IST" name="closeBrowserSetup" finished-at="2021-09-28T18:30:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:02:03 IST" name="closeBrowserSetup" finished-at="2021-09-29T18:02:03 IST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserSetup -->
+        <test-method is-config="true" signature="closeReportSetup()[pri:0, instance:CapgeminiSelenium.maintest.AppLoginPageTest@58d75e99]" started-at="2021-09-29T18:02:03 IST" name="closeReportSetup" finished-at="2021-09-29T18:02:03 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReportSetup -->
       </class> <!-- CapgeminiSelenium.maintest.AppLoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
